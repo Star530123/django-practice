@@ -5,9 +5,10 @@ Learn django from Mozilla : https://developer.mozilla.org/zh-TW/docs/Learn/Serve
 - sqlite
 
 # Setup
-1. Create virtual environment and install library. (windows)
+1. Create and activate virtual environment and install library. (windows)
     ```
-    py -m venv {venv_name}
+    py -m venv venv
+    .\venv\Scripts\activate
     pip install -r requirements.txt
     ```
 2. Migrate
